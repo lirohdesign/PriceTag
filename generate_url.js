@@ -7,7 +7,7 @@ var x = 'Carpet Installation'
       //if (data[i]['Item'] === x) {
         //console.log(encodeURIComponent(JSON.stringify(data[i]['Item'])));
 
-        var pth = 'http://192.168.1.233:8081/'
+        var pth = 'http://localhost:8081/'
         console.log(pth + encodeURIComponent(data[i]['Item']));
       //}
     }

@@ -1,0 +1,17 @@
+{
+  "name": "pricetag",
+  "version": "1.0.0",
+  "description": "This app uses a Node.js server on the local wifi to run API call back functions. These functions push data from a JSON file when specific keys are requested. The goal is to place QR codes containing URL/key as an inventory managment system. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Shelby",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^1.0.0",
+    "express": "^4.14.0",
+    "jsonfile": "^2.3.1"
+  },
+  "notes": "express, csvtojson, jsonfile, qr-image"
+}

@@ -1,0 +1,5 @@
+,"Active Status","Type","Item","Description","Sales Tax Code","Account","COGS Account","Asset Account","Accumulated Depreciation","Purchase Description","Quantity On Hand","Cost","Preferred Vendor","Tax Agency","Price","Reorder Pt (Min)","MPN"
+,"Active","Service","Carpet Installation","Installation of Carpet","Non","Labor Sales",,,0.00,,"",0.00,,,4.00,"",
+,"Active","Service","Furniture","Furniture Moving","Non","Labor Sales",,,0.00,,"",0.00,,,0.00,"",
+,"Active","Service","Labor","Labor","Non","Labor Sales",,,0.00,"Labor","",75.00,,,0.00,"",
+,"Active","Service","Labor:Binding",,"Non","Labor Sales",,,0.00,,"",0.00,,,0.00,"",

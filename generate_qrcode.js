@@ -6,9 +6,9 @@ var jsonfile = require('jsonfile')
 var ip = require('ip')
 
 //choose an item from itemlist.json
-var x = 'furniture'
+var x = 'amclib'
 
-
+var item = 'go'
 var full_pth =  jsonfile.readFile( "itemlist.json", 'utf8', function (err, data) {
     for (var i = 0; i < data.length; i++) {
       if (data[i]['Item'] === x) {
@@ -21,11 +21,10 @@ var full_pth =  jsonfile.readFile( "itemlist.json", 'utf8', function (err, data)
     }
   })
 
-
 app.get('/', function(req, res) {
 
   var code = qr.image(full_pth, { type: 'svg' })
-  //var output = fs.createWriteStream("C:/Users/wylies/PriceTag/qrcodes/test.svg")
+  //var output = fs.createWriteStream("./test.svg")
   res.type('svg');
   code.pipe(res);
   //code.pipe(output);

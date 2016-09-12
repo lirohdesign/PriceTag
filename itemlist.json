@@ -188,5 +188,24 @@
     "Price": 0,
     "Reorder Pt (Min)": "",
     "MPN": ""
+  },
+  {
+    "Active Status": "Active",
+    "Type": "Inventory Part",
+    "Item": "amclib",
+    "Description": "American Concepts Liberty",
+    "Sales Tax Code": "Tax",
+    "Account": "Retail Sales",
+    "COGS Account": "Cost of Goods Sold",
+    "Asset Account": "Inventory-Floor Covering",
+    "Accumulated Depreciation": 0,
+    "Purchase Description": "American Concepts Liberty",
+    "Quantity On Hand": 0,
+    "Cost": 0.95,
+    "Preferred Vendor": "Bishop",
+    "Tax Agency": "",
+    "Price": 1.49,
+    "Reorder Pt (Min)": "",
+    "MPN": "AMCLIB"
   }
 ]
